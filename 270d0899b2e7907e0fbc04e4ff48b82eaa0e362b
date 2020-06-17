@@ -1,0 +1,1 @@
+{"jobID":"06c5db2d-c224-873e-4d68-3316f90e24ae","spec":{"type":"policy","cause":{"Message":"","User":"Christian Höltje \u003cdocwhat@gerf.org\u003e"},"spec":{"demo:deployment/podinfo":{"add":{"tag_all":"glob:1.4.*"},"remove":{}}}},"result":null}
