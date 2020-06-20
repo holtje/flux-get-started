@@ -9,8 +9,8 @@ metadata:
     app.kubernetes.io/name: podinfo
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.init: "glob: ~>3.*"
-    fluxcd.io/tag.podinfod: "semver: ~>4.0"
+    fluxcd.io/tag.init: "glob:3.*"
+    fluxcd.io/tag.podinfod: "semver:~>4.0"
 spec:
   strategy:
     rollingUpdate:
