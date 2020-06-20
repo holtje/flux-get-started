@@ -9,8 +9,8 @@ metadata:
     app.kubernetes.io/name: podinfo
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.init: glob:3.*
-    fluxcd.io/tag.podinfod: glob:3.*
+    fluxcd.io/tag.init: "semver: ~>3.4"
+    fluxcd.io/tag.podinfod: "semver: ~>3.2"
 spec:
   strategy:
     rollingUpdate:
@@ -29,7 +29,7 @@ spec:
     spec:
       initContainers:
         - name: init
-          image: alpine:3.12
+          image: alpine:3.9.6
           command:
             - sleep
             - "1"
