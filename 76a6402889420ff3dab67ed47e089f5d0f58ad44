@@ -1,0 +1,1 @@
+{"jobID":"4b36b0be-3433-5394-9398-114beea5462a","spec":{"type":"policy","cause":{"Message":"","User":""},"spec":{"admin:helmrelease/sealed-secrets":{"add":{"automated":"true"},"remove":{}}}},"result":null}
