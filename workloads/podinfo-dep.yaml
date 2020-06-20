@@ -29,13 +29,13 @@ spec:
     spec:
       initContainers:
       - name: init
-        image: alpine:3.9.6
+        image: alpine:3.4
         command:
         - sleep
         - "1"
       containers:
       - name: podinfod
-        image: stefanprodan/podinfo:3.3.1
+        image: stefanprodan/podinfo:4.0.5
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
