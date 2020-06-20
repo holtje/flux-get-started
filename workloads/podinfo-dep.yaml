@@ -6,6 +6,7 @@ metadata:
   namespace: demo
   labels:
     app: podinfo
+    app.kubernetes.io/name: podinfo
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: glob:3.*
