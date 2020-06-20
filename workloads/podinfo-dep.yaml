@@ -10,7 +10,7 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
     fluxcd.io/tag.init: "semver: ~>3.4"
-    fluxcd.io/tag.podinfod: "semver: ~>3.2"
+    fluxcd.io/tag.podinfod: "semver: ~>4.0"
 spec:
   strategy:
     rollingUpdate:
