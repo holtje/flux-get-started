@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/name: podinfo
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.init: "semver: ~>3.4"
+    fluxcd.io/tag.init: "globl: ~>3.*"
     fluxcd.io/tag.podinfod: "semver: ~>4.0"
 spec:
   strategy:
